@@ -32,6 +32,34 @@ def countCountriesSet(data):
                     countries[country] +=1
     return countries
 
+# returns a dict of all the occuring catagories
+# with their occurence counts
+def countCategoriesSet(data):
+    categories =  dict()
+    for actor in data["actors"]:
+        if 'categories' in actor.keys():
+            if len(actor['categories'])>0:
+                for category in actor['categories']:
+                    if category not in categories.keys():
+                        categories[category] = 0
+                    categories[category] +=1
+    return categories
+
+# returns a dict of all the occuring catagories of entries having jurisdiction set
+# with their occurence counts
+def countCategoriesSetWithJursidictionSet(data):
+    categories =  dict()
+    for actor in data["actors"]:
+        if 'jurisdictions' in actor.keys():
+            if len(actor['jurisdictions'])>0:
+                if 'categories' in actor.keys():
+                    if len(actor['categories'])>0:
+                        for category in actor['categories']:
+                            if category not in categories.keys():
+                                categories[category] = 0
+                            categories[category] +=1
+    return categories
+
 if __name__ == '__main__':
     with open('graphsense.actorpack.yaml') as f:
         data = yaml.load(f, Loader=SafeLoader)
@@ -40,3 +68,9 @@ if __name__ == '__main__':
 
         countryDict = countCountriesSet(data)
         pprint(countryDict)
+
+        categoryDict = countCategoriesSet(data)
+        pprint(categoryDict)
+
+        categoryDict = countCategoriesSetWithJursidictionSet(data)
+        pprint(categoryDict)
