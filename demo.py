@@ -14,8 +14,10 @@ def countJurisdictionsSet(data):
     for actor in data["actors"]:
         cnt += 1
         if 'jurisdictions' in actor.keys():
-            if len(actor['jurisdictions'])>0:
-                juri_cnt +=1
+            if actor["jurisdictions"] != []:
+                if len(actor['jurisdictions'])>1:
+                    juri_cnt +=1
+                    pprint(actor)
     return (juri_cnt,cnt)
 
 
@@ -47,13 +49,13 @@ def countCategoriesSet(data):
 
 # returns a dict of all the occuring catagories of entries having jurisdiction set
 # with their occurence counts
-def countCategoriesSetWithJursidictionSet(data):
+def countCategoriesSetWithJursidictionSet(data,juricnt):
     categories =  dict()
     for actor in data["actors"]:
         if 'jurisdictions' in actor.keys():
             if len(actor['jurisdictions'])>0:
                 if 'categories' in actor.keys():
-                    if len(actor['categories'])>0:
+                    if len(actor['categories'])>juricnt:
                         for category in actor['categories']:
                             if category not in categories.keys():
                                 categories[category] = 0
@@ -72,5 +74,7 @@ if __name__ == '__main__':
         categoryDict = countCategoriesSet(data)
         pprint(categoryDict)
 
-        categoryDict = countCategoriesSetWithJursidictionSet(data)
-        pprint(categoryDict)
+        for i in range(10):
+            print(">{} juri".format(i))
+            categoryDict = countCategoriesSetWithJursidictionSet(data,i)
+            pprint(categoryDict)
