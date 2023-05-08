@@ -1,0 +1,6 @@
+[submodule "graphsense-python"]
+	path = graphsense-python
+	url = https://github.com/graphsense/graphsense-python.git
+[submodule "graphsense-tagpacks"]
+	path = graphsense-tagpacks
+	url = https://github.com/graphsense/graphsense-tagpacks
