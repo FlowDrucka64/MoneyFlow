@@ -1,0 +1,8 @@
+pyarrow
+pandas
+plotly
+scipy
+numpy
+ipywidgets
+matplotlib
+geopandas
