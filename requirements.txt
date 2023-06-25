@@ -6,3 +6,4 @@ numpy
 ipywidgets
 matplotlib
 geopandas
+nbformat>=4.2.0
