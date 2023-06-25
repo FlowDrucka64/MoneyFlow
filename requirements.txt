@@ -7,3 +7,6 @@ ipywidgets
 matplotlib
 geopandas
 nbformat>=4.2.0
+networkx
+pprint
+csv
