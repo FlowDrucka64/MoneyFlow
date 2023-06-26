@@ -32,18 +32,18 @@ for country,neighbours in countries.items():
         graph.add_edge(country,neighbour)
 
 with open('data/neighbour_distance_matrix.csv', 'w', newline="\n") as file:
-    writer = csv.writer(file)
+    writer = csv.writer(file, delimiter=";")
     line = ["FROM/TO"]
-    for country in countries:
-        line.append(country)
+    for country in sorted(countries):
+        line.append(country.upper())
     writer.writerow(line)
 
-    for _source in countries:
-        line = [_source]
-        for _target in countries:
+    for _source in sorted(countries):
+        line = [_source.upper()]
+        for _target in sorted(countries):
             try:
                 shortest_path = nx.shortest_path(graph,source=_source, target=_target)
-                line.append(len(shortest_path))
+                line.append(len(shortest_path)-1)
             except:
                 line.append(NO_CON)
         writer.writerow(line)

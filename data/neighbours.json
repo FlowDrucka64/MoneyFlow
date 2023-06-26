@@ -1081,7 +1081,7 @@
             ]
         },
         {
-            "name": "People's Republic of China",
+            "name": "China",
             "neighbor_count": 14,
             "continents": [
                 "Asia"
@@ -1125,7 +1125,7 @@
             ]
         },
         {
-            "name": "Iran",
+            "name": "Iran, Islamic Republic of",
             "neighbor_count": 7,
             "continents": [
                 "Asia"
@@ -1175,7 +1175,7 @@
             ]
         },
         {
-            "name": "South Korea",
+            "name": "KOREA, REPUBLIC OF",
             "neighbor_count": 1,
             "continents": [
                 "Asia"
@@ -1280,7 +1280,7 @@
             ]
         },
         {
-            "name": "Russia",
+            "name": "Russian Federation",
             "neighbor_count": 14,
             "continents": [
                 "Asia",
@@ -1384,12 +1384,12 @@
     "links": [
         {
             "source": "Afghanistan",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 76.0
         },
         {
             "source": "Afghanistan",
-            "target": "Iran",
+            "target": "Iran, Islamic Republic of",
             "border": 936.0
         },
         {
@@ -1524,7 +1524,7 @@
         },
         {
             "source": "Armenia",
-            "target": "Iran",
+            "target": "Iran, Islamic Republic of",
             "border": 35.0
         },
         {
@@ -1579,12 +1579,12 @@
         },
         {
             "source": "Azerbaijan",
-            "target": "Iran",
+            "target": "Iran, Islamic Republic of",
             "border": 432.0
         },
         {
             "source": "Azerbaijan",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 284.0
         },
         {
@@ -1619,7 +1619,7 @@
         },
         {
             "source": "Belarus",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 959.0
         },
         {
@@ -1679,7 +1679,7 @@
         },
         {
             "source": "Bhutan",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 470.0
         },
         {
@@ -1954,61 +1954,61 @@
         },
         {
             "source": "India",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 3380.0
         },
         {
             "source": "Kazakhstan",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 1533.0
         },
         {
             "source": "North Korea",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 1416.0
         },
         {
             "source": "Kyrgyzstan",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 858.0
         },
         {
             "source": "Laos",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 423.0
         },
         {
             "source": "Mongolia",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 4677.0
         },
         {
             "source": "Myanmar",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 2185.0
         },
         {
             "source": "Nepal",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 1236.0
         },
         {
             "source": "Pakistan",
-            "target": "People's Republic of China",
+            "target": "China",
             "border": 523.0
         },
         {
-            "source": "People's Republic of China",
-            "target": "Russia",
+            "source": "China",
+            "target": "Russian Federation",
             "border": 3645.0
         },
         {
-            "source": "People's Republic of China",
+            "source": "China",
             "target": "Tajikistan",
             "border": 414.0
         },
         {
-            "source": "People's Republic of China",
+            "source": "China",
             "target": "Vietnam",
             "border": 1281.0
         },
@@ -2224,7 +2224,7 @@
         },
         {
             "source": "Estonia",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 294.0
         },
         {
@@ -2259,7 +2259,7 @@
         },
         {
             "source": "Finland",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 1340.0
         },
         {
@@ -2309,7 +2309,7 @@
         },
         {
             "source": "Georgia",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 723.0
         },
         {
@@ -2458,22 +2458,22 @@
             "border": 820.0
         },
         {
-            "source": "Iran",
+            "source": "Iran, Islamic Republic of",
             "target": "Iraq",
             "border": 1458.0
         },
         {
-            "source": "Iran",
+            "source": "Iran, Islamic Republic of",
             "target": "Pakistan",
             "border": 909.0
         },
         {
-            "source": "Iran",
+            "source": "Iran, Islamic Republic of",
             "target": "Turkey",
             "border": 499.0
         },
         {
-            "source": "Iran",
+            "source": "Iran, Islamic Republic of",
             "target": "Turkmenistan",
             "border": 992.0
         },
@@ -2569,7 +2569,7 @@
         },
         {
             "source": "Kazakhstan",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 6846.0
         },
         {
@@ -2604,12 +2604,12 @@
         },
         {
             "source": "North Korea",
-            "target": "South Korea",
+            "target": "KOREA, REPUBLIC OF",
             "border": 238.0
         },
         {
             "source": "North Korea",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 19.0
         },
         {
@@ -2649,7 +2649,7 @@
         },
         {
             "source": "Latvia",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 217.0
         },
         {
@@ -2694,7 +2694,7 @@
         },
         {
             "source": "Lithuania",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 227.0
         },
         {
@@ -2754,7 +2754,7 @@
         },
         {
             "source": "Mongolia",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 3485.0
         },
         {
@@ -2824,7 +2824,7 @@
         },
         {
             "source": "Norway",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 196.0
         },
         {
@@ -2844,7 +2844,7 @@
         },
         {
             "source": "Poland",
-            "target": "Russia",
+            "target": "Russian Federation",
             "border": 206.0
         },
         {
@@ -2878,7 +2878,7 @@
             "border": 531.0
         },
         {
-            "source": "Russia",
+            "source": "Russian Federation",
             "target": "Ukraine",
             "border": 1576.0
         },
