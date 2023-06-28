@@ -1,13 +1,12 @@
 # MoneyFlow
-Project to research Cross-Border Money Flows in cryptocurrencies
+Project to research Cross-Border Money Flows in cryptocurrencies in the scope of Crypto Asset Analytics TU WIEN SS 2023
 
 
-# TODO
-- [ ] Formulate Research Question
-- [ ] Data Exploration (Statistics, visuals,...)
-- [ ] Similarweb scraping
-- [ ] GDP data, Corruptionindex, .. (whatever data seems useful)
-- [ ] Heatmap (incoming, outgoing by juri, traffic, Headquater)
-- [ ] "Roter faden" bewtween juri, traffic, Headquater
-- [ ] Flow trends over time (correlation with "big events"?)
+
+## Utility scrips for python env
+(chmod +x first if doesnt have permissions already)
+```shell
+./bin/create_venv.sh     #setup
+source ./bin/activate.sh #activate
+```
 
